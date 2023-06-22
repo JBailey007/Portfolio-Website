@@ -3,27 +3,52 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>CSS Snippet Cheatsheet</title>
+        <title>Developer Portfolio</title>
         <link rel="stylesheet" href="assets/css/reset.css" />
         <link rel="stylesheet" href="./assets/css/style.css" />
     </head>
 
 
     <body>
-        <header>
-            <h1>My Portfolio</h1>
-        </header>
-
-        <nav>
-            <a href="#">ABOUT</a>
-            <a href="#">WORK</a>
-            <a href="#">CONTACT</a>
+        <nav class="navbar">
+            <div class="website-title"> My Portfolio</div>
+            <div class="navbar-links">
+                <ul>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Work</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </div>
         </nav>
-
         <main>
-            <aside>
-              <h2>About</h2>  
-            </aside>
+            <div id="banner">
+                <img src="./assets/images/wallpaperflare.com_wallpaper (1).jpg"></a>
+            </div>
+
+            <div class="flexbox-container">
+            <div class="aboutMe-flexbox">
+                <h2>About Me</h2>
+            </div>
+            <div class="aboutMe-paragraph">
+                <p>Hi! My name is Jalen and I am a Student at the University of Utah.
+                    I am learning how to code and create amazing programs using different coding languages. 
+                    I enjoy spending time with my fiance and playing video games. I also enjoy going outdoors
+                    and exploring my home state of Utah in my 2008 Jeep Wrangler.
+                <br>
+                <br> 
+                    I decided I wanted to become a developer because I have worked as a Scrum Master for almost 2 years now. 
+                    Each of the developers that I have worked with have inspired me to go out of my comfort zone and learn
+                    something new and exciting.
+                </p>
+            </div>
         </main>
+        <section>
+            <div class="flexbox-container">
+            <div class="work-flexbox">
+                <h2>Work</h2>
+            </div>
+            <div class="work-images-section"></div>
+            </div>
+        </section>
     </body>
 </html>
