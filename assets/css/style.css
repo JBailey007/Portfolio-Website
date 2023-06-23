@@ -2,6 +2,10 @@
     box-sizing: border-box;
 }
 
+html {
+    position: relative;
+}
+
 body {
     margin: 0;
     padding: 0;
@@ -24,7 +28,6 @@ body {
     margin: 0;
     padding: 0;
     display: flex;
-
 }
 
 .navbar-links li {
@@ -55,14 +58,15 @@ body {
 
 
 /* Flexbox containers for main section below the Banner */
-.flexbox-container {
+.flexbox-container1 {
     display: flex;
+    background-color: white;
 }
 
 .aboutMe-flexbox {
     display: flex;
-    width: 300px;
-    min-height:250px;
+    width: 200px;
+    min-height:200px;
     justify-content: flex-end;
     align-items: center;
 }
@@ -76,24 +80,36 @@ body {
     display: flex;
     flex-wrap: wrap;
     width: 100%;
-    height: 250px;
+    height: 200px;
     align-items: center;
 }
 
 .aboutMe-paragraph p {
     padding: 10px;
     line-height: 1.5;
-    font-size: 18px;
+    font-size: 1em;
     color: black;
     border-left: 8px solid #333;
 }
 
 /* Work Section */
+.section-margin {
+    display: flex;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 10px;
+
+}
+
+.flexbox-container2 {
+    display: flex;
+}
+
 .work-flexbox {
     display: flex;
-    width: 300px;
+    width: 200px;
     min-height:750px;
-    justify-content: flex-end;
+    justify-content: center;
     align-items: center;
 }
 
@@ -145,6 +161,33 @@ body {
     height: 200px;
     border: 5px solid black;
 }
+
+/* Work Box Hover State */
+.work-box-1:hover {
+    background-color: lightgray;
+    opacity: .5;
+}
+
+.work-box-2:hover {
+    background-color: lightgray;
+    opacity: .5;
+}
+
+.work-box-3:hover {
+    background-color: lightgray;
+    opacity: .5;
+}
+
+.work-box-4:hover {
+    background-color: lightgray;
+    opacity: .5;
+}
+
+.work-box-5:hover {
+    background-color: lightgray;
+    opacity: .5;
+}
+
 /* Images in the work section boxes */
 .work-box-1 img {
     width: 100%;
@@ -183,7 +226,7 @@ body {
     justify-content: center;
     background-color: lightgray;
     color: black;
-    font-size: 26px;
+    font-size: 16px;
     width: 300px;
     height: 45px;
     position: relative;
@@ -228,26 +271,8 @@ body {
     background-color: grey;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /* media queries when the page has a max width of 600px */
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 900px) {
     .navbar{
         flex-direction: column;
         align-items: flex-start;
@@ -265,4 +290,39 @@ body {
     .navbar-links li a {
         padding: .5rem 1rem;
     }
+    .aboutMe-flexbox {
+        display: flex;
+    }
+
+    .aboutMe-paragraph {
+        font-size: 13px;
+    }
+}
+
+@media screen and (max-width: 640px) {
+    .section-margin {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+    .flexbox-container1 {
+    display: flex;
+    width: 100%;
+    height: 75px;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    }
+
+    .flexbox-container2 {
+        display: flex;
+        width: 100%;
+        height: 75px;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-content: center;
+        justify-content: center;
+        }
+
 }
