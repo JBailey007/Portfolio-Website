@@ -53,6 +53,7 @@ body {
     width: 100%;
     height: 184px;
     object-fit: cover;
+    z-index: 1;
 
 }
 
@@ -296,6 +297,27 @@ body {
 
     .aboutMe-paragraph {
         font-size: 13px;
+    }
+    .text-card{
+        width: 200px;
+    }
+}
+
+
+@media screen and (max-width: 744px) {
+    .work-box-2 , .work-box-3 , .work-box-4 , .work-box-5{
+    flex-direction: column;
+    margin: 5px;
+    width: 100%;
+    height: 200px;
+    border: 5px solid black;
+    }
+    .work-box-1 {
+    flex-direction: column;
+    margin: 5px;
+    width: 100%;
+    height: 600px;
+    border: 5px solid black;
     }
 }
 
