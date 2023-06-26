@@ -8,7 +8,7 @@ The images are just place holders for now until more projects have been created.
 
 ## Installation
 
-You can access this page using the following link. (https://)
+You can access this page using the following link. (https://jbailey007.github.io/Portfolio-Website/)
 
 ## Usage
 Click on the different nav bar items to easily access the information on the page. 
@@ -20,6 +20,7 @@ The bottom footer contains links that will take you outside of the page where yo
 N/A
 
 # Screenshot
+![Screenshot of Website for Developer Portfolio](<Screenshot 2023-06-26 151805.png>)
 
 ## License
 Please refer to the LICENSE in the repo. 
