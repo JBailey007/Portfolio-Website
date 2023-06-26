@@ -127,97 +127,46 @@ body {
     justify-content: space-evenly;
     border-left: 8px solid #333;
 }
-.work-box-1 {
+.work-box-big {
     margin: 15px;
     width: 100%;
     height: 600px;
     border: 5px solid black;
 }
 
-.work-box-2 {
+.work-box-small {
     margin: 5px;
     width: 48%;
     height: 200px;
     border: 5px solid black;
 }
 
-.work-box-3 {
-    margin: 5px;
-    width: 48%;
-    height: 200px;
-    border: 5px solid black;
-}
-
-.work-box-4 {
-    margin: 5px;
-    width: 48%;
-    height: 200px;
-    border: 5px solid black;
-}
-
-.work-box-5 {
-    margin: 5px;
-    width: 48%;
-    height: 200px;
-    border: 5px solid black;
-}
 
 /* Work Box Hover State */
-.work-box-1:hover {
+.work-box-big:hover {
     background-color: lightgray;
     opacity: .5;
 }
 
-.work-box-2:hover {
+.work-box-small:hover {
     background-color: lightgray;
     opacity: .5;
 }
 
-.work-box-3:hover {
-    background-color: lightgray;
-    opacity: .5;
-}
-
-.work-box-4:hover {
-    background-color: lightgray;
-    opacity: .5;
-}
-
-.work-box-5:hover {
-    background-color: lightgray;
-    opacity: .5;
-}
 
 /* Images in the work section boxes */
-.work-box-1 img {
+.work-box-big img {
     width: 100%;
     height: 590px;
     object-fit: cover;
 }
 
-.work-box-2 img {
+.work-box-small img {
     width: 100%;
     height: 190px;
     object-fit: cover;
 }
 
-.work-box-3 img {
-    width: 100%;
-    height: 190px;
-    object-fit: cover;
-}
-
-.work-box-4 img {
-    width: 100%;
-    height: 190px;
-    object-fit: cover;
-}
-
-.work-box-5 img {
-    width: 100%;
-    height: 190px;
-    object-fit: cover;
-}
 
 /* Text Cards for each Div Box */
 .text-card {
@@ -304,14 +253,14 @@ body {
 
 
 @media screen and (max-width: 744px) {
-    .work-box-2 , .work-box-3 , .work-box-4 , .work-box-5{
+    .work-box-small , .work-box-3 , .work-box-4 , .work-box-5{
     flex-direction: column;
     margin: 5px;
     width: 100%;
     height: 200px;
     border: 5px solid black;
     }
-    .work-box-1 {
+    .work-box-big {
     flex-direction: column;
     margin: 5px;
     width: 100%;
