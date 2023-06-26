@@ -3,6 +3,8 @@
 ## Description
 This webpage was created/edited using HTML and CSS code. 
 This webpage contains useful information about Jalen Bailey a FullStack Developer and how to contact him. 
+The images will need to be updated with links. 
+The images are just place holders for now until more projects have been created. 
 
 ## Installation
 
